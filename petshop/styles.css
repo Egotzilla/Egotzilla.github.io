@@ -1,11 +1,11 @@
 html {
-    cursor: url('img/cursor/cursor01.png') 0 0, auto;
-    cursor: -webkit-image-set(url('img/cursor/cursor01.png') 1x, url('img/cursor/cursor01.png') 2x) 0 0, auto;
+    cursor: url('./img/cursor/cursor01.png') 0 0, auto;
+    cursor: -webkit-image-set(url('./img/cursor/cursor01.png') 1x, url('./img/cursor/cursor01.png') 2x) 0 0, auto;
 }
 
 a, button{
-    cursor: url('img/cursor/cursor02.png') 0 0, auto;
-    cursor: -webkit-image-set(url('img/cursor/cursor02.png') 1x, url('img/cursor/cursor02.png') 2x) 0 0, auto;
+    cursor: url('./img/cursor/cursor02.png') 0 0, auto;
+    cursor: -webkit-image-set(url('./img/cursor/cursor02.pngg') 1x, url('./img/cursor/cursor02.png') 2x) 0 0, auto;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-image: url("img/jumbotron.jpg");
+    background-image: url("./img/jumbotron.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
