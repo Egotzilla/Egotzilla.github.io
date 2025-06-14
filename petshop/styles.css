@@ -1,0 +1,108 @@
+html {
+    cursor: url('img/cursor/cursor01.png') 0 0, auto;
+    cursor: -webkit-image-set(url('img/cursor/cursor01.png') 1x, url('img/cursor/cursor01.png') 2x) 0 0, auto;
+}
+
+a, button{
+    cursor: url('img/cursor/cursor02.png') 0 0, auto;
+    cursor: -webkit-image-set(url('img/cursor/cursor02.png') 1x, url('img/cursor/cursor02.png') 2x) 0 0, auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.featured {
+    margin: 20px;
+}
+
+/* Important: Auto auto-fit (but not in the middle it's in order from left to right)
+
+.pet-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    
+}
+*/
+
+.pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+    max-width: 90%; /* the percen will measure by the size of its parent */
+    margin: 5%;
+}
+
+.pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    
+    border: 2px solid #ddd ;
+    border-radius: 10px;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.pet :nth-child(5) {
+  grid-column: 2;
+}
+.pet :nth-child(6) {
+    grid-column: 3;
+}
+
+.pet img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover {
+    transform: translateY(-15px);
+    transition: 0.5s;
+    box-shadow: rgba(255, 0, 0, 0.553) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /*background-color: #ff0000; */
+}
+
+footer {
+    display: flex;
+    background-color: #269929;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+}
+
+footer div {
+    margin-right: 10px;
+}

@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Welcome to Our Pet Store</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="pets.html">Pets</a>
+            <a href="index.html">Home</a>
+            <a href="#">Pets</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section class="featured" id="home">
-            <h2>Featured Pets</h2>
-            <div class="pet-list">
-                <div class="pet">
-                    <img src="/img/dog.jpg" alt="Cute Dog">
-                    <p>Charlie - Golden Retriever</p>
-                    <button onclick="adoptPet()">Adopt Now</button>
-                </div>
-
-                <div class="pet">
-                    <img src="/img/cat.webp" alt="Cute Cat">
-                    <p>Milo - British Shorthair</p>
-                    <button onclick="adoptPet()">Adopt Now</button>
-                </div>
+        <section class="featured">
+            <h2>All Pets 🐶</h2>
+            <div id="all-pets" class="pet-list">
+               
             </div>
         </section>
     </main>
@@ -40,6 +32,7 @@
             <h3>Pet Store</h3>
             123 Pet Lane, Animal City, AC 12345
             <p>Email: <strong>info@petstore.com</strong></p>
+
         </div>
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.757492862722!2d100.8353415741823!3d13.611617900525486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749630368256!5m2!1sen!2sth" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -47,6 +40,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="loadpets.js"></script>
 </body>
 
 </html>
