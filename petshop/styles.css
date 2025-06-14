@@ -16,9 +16,15 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    padding: 20px;
+    background-image: url("img/jumbotron.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 50px 20px;
     color: white;
+
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.691);
 }
 
 nav a {

@@ -4,7 +4,12 @@ const pets = [
   { "name": "Tommy", "type": "Dog", "age": 5, "img": "img/dogs/dog03.jpg" },
   { "name": "Whiskers", "type": "Cat", "age": 2, "img": "img/cats/cat01.jpg" },
   { "name": "Mittens", "type": "Cat", "age": 3, "img": "img/cats/cat02.jpg" },
-  { "name": "Michelin", "type": "Cat", "age": 4, "img": "img/cats/cat03.jpg" }
+  { "name": "Michelin", "type": "Cat", "age": 4, "img": "img/cats/cat03.jpg" },
+  
+  { "name": "Kiwi", "type": "Bird", "age": 7, "img": "img/birds/bird01.jpg" },
+  { "name": "Nimbus", "type": "Bird", "age": 5, "img": "img/birds/bird02.jpg" },
+  { "name": "Churro", "type": "Capybara", "age": 4, "img": "img/capybaras/capybara01.jpg" },
+  { "name": "Tofu", "type": "Capybara", "age": 5, "img": "img/capybaras/capybara02.jpg" }
 ];
 
 var ap = document.getElementById("all-pets") // ap is announced variable that gonna have id = "all-pets"
