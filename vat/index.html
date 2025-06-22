@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            justify-items: center;
+            padding: 0% 5%;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 35px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>VAT Calculator</h1>
+
+    <div>
+        Base Price
+        <input type="number" id="basePrice" value="100">
+        <button onclick="calculateVat()">Calculate</button>
+
+        <span id="result"></span>
+    </div>
+
+    <div>
+        Reverse Vat
+        <input type="number" id="priceWithVat" value="100">
+        <button onclick="calculateReverseVat()">Calculate</button>
+        
+        <span id="reverseResult"></span>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="vat.js"></script>
+
+</html>

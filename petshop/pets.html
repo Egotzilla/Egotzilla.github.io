@@ -18,12 +18,27 @@
         </nav>
     </header>
 
+
+
     <main>
         <section class="featured">
             <h2>All Pets 🐶</h2>
-            <div id="all-pets" class="pet-list">
-               
+
+            <div style="display: flex; gap: 24px; justify-content: center">
+                <p style="align-items: center;">Type:</p>
+                <div class="pet-type-filters">
+                    <div><input type="checkbox" id="type-all" name="pet-type" value="All" checked> All</div>
+                    <div><input type="checkbox" id="type-dogs" name="pet-type" value="Dog"> Dogs</div>
+                    <div><input type="checkbox" id="type-cats" name="pet-type" value="Cat"> Cats</div>
+                    <div><input type="checkbox" id="type-birds" name="pet-type" value="Bird"> Birds</div>
+                    <div><input type="checkbox" id="type-capybaras" name="pet-type" value="Capybara"> Capybaras</div>
+                </div>
             </div>
+
+            <div id="pet-list" class="pet-list">
+
+            </div>
+
         </section>
     </main>
 
@@ -35,12 +50,17 @@
 
         </div>
         <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.757492862722!2d100.8353415741823!3d13.611617900525486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749630368256!5m2!1sen!2sth" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.757492862722!2d100.8353415741823!3d13.611617900525486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749630368256!5m2!1sen!2sth"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
 
-    <script src="/petshop/script.js"></script>
-    <script src="/petshop/loadPets.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./loadPets.js"></script>
 </body>
 
 </html>
+

@@ -3,7 +3,9 @@ html {
     cursor: -webkit-image-set(url('./img/cursor/cursor01.png') 1x, url('./img/cursor/cursor01.png') 2x) 0 0, auto;
 }
 
-a, button{
+a,
+button,
+input {
     cursor: url('./img/cursor/cursor02.png') 0 0, auto;
     cursor: -webkit-image-set(url('./img/cursor/cursor02.pngg') 1x, url('./img/cursor/cursor02.png') 2x) 0 0, auto;
 }
@@ -54,8 +56,9 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    
-    max-width: 90%; /* the percen will measure by the size of its parent */
+
+    max-width: 90%;
+    /* the percen will measure by the size of its parent */
     margin: 5%;
 }
 
@@ -66,19 +69,20 @@ nav a {
     justify-content: center;
 
     width: 250px;
-    
-    border: 2px solid #ddd ;
+
+    border: 2px solid #ddd;
     border-radius: 10px;
     padding: 30px 0px;
     text-align: center;
 }
 
-.pet :nth-child(5) {
-  grid-column: 2;
+/* .pet :nth-child(5) {
+    grid-column: 2;
 }
+
 .pet :nth-child(6) {
     grid-column: 3;
-}
+} */
 
 .pet img {
     width: 200px;
@@ -111,4 +115,27 @@ footer {
 
 footer div {
     margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.pet-type-filters {
+    display: flex;
+    gap: 5px;
+}
+
+.pet-type-filters div {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#type-all:checked {
+  background-color: #4CAF50;
+  position: relative;
 }
