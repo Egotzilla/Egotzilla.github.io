@@ -1,0 +1,101 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: rgb(184, 212, 231);
+    color: darkblue;
+    border: solid #000000 1px;
+}
+
+td {
+    vertical-align: top;
+}
+
+#sub-total {
+    border-top: solid #000 1px;
+}
+
+#bottom-line {
+    border-bottom: solid #b8b8b8 1px;
+}
+
+.data {
+    border-left: solid #b8b8b8 1px;
+    border-right: solid #b8b8b8 1px;
+}
+
+.data2 {
+    border-right: solid #b8b8b8 1px;
+}
+
+p.i {
+    font-style: italic;
+  }
+
+.r {
+    text-align: right;
+}
+
+.cen {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+  }
+
+.colo {
+    font-weight: bold;
+    color: darkblue;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.tab { 
+    display:inline-block; 
+    margin-left: 40px; 
+}
+
+.btnColor {
+    color: #ffffff;
+    background-color: #7c7c7c;
+    border-color: #8d8d8d;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(143,139,139,0.5);
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.data2 {
+    border-color: #b6b6b6;
+}
+
+#bottom-line {
+    border-color: #b6b6b6;
+}
+
+
+.data-row td {
+    padding-left: 5px;
+    border: 1px solid #b6b6b6;
+}
+
+.data-row .text-right {
+    padding-right: 10px;
+}
+
+.data-row button {
+    border: 2px solid #b6b6b6;
+    border-radius: 5px;
+    background-color: white;
+}

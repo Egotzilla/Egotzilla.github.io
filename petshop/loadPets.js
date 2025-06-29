@@ -98,3 +98,5 @@ $(document).ready(function() {
   // This will run once when the document is ready
   loadPets();
 });
+
+$()
